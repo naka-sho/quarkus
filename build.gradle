@@ -18,6 +18,8 @@ dependencies {
     implementation enforcedPlatform("${quarkusPlatformGroupId}:${quarkusPlatformArtifactId}:${quarkusPlatformVersion}")
     implementation 'io.quarkus:quarkus-resteasy-jackson'
 //    implementation 'io.quarkus:quarkus-resteasy-reactive'
+    implementation 'org.sejda.imageio:webp-imageio:0.1.6'
+
     implementation 'io.quarkus:quarkus-jackson'
     implementation 'io.quarkus:quarkus-arc'
     testImplementation 'io.quarkus:quarkus-junit5'
