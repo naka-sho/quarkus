@@ -23,7 +23,7 @@ dependencies {
     testImplementation 'io.rest-assured:rest-assured'
 
     implementation 'io.quarkus:quarkus-hibernate-validator'
-    implementation 'io.quarkiverse.mybatis:quarkus-mybatis:0.0.10'
+    implementation 'io.quarkiverse.mybatis:quarkus-mybatis:1.0.4'
     implementation 'io.quarkus:quarkus-jdbc-mysql:0.26.1'
 }
 
